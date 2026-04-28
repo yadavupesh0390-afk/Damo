@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shanvi Sports Foundation</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#f4f7fb;color:#222;}
+
+/* HEADER */
+header{
+position:sticky;
+top:0;
+background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+color:#fff;
+text-align:center;
+padding:10px;
+z-index:1000;
+box-shadow:0 3px 8px rgba(0,0,0,0.3);
+}
+
+header h1{font-size:22px;color:#ffd54f;}
+header p{font-size:12px;}
+
+nav a{
+color:#ffd54f;
+margin:0 8px;
+text-decoration:none;
+font-size:12px;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1505842465776-3d90f616310d') center/cover;
+height:480px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+padding:20px;
+}
+
+.hero h2{font-size:38px;}
+.hero p{font-size:16px;}
+
+.btn{
+margin-top:18px;
+padding:12px 26px;
+background:#ffc107;
+color:#111;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+/* SECTION */
+section{padding:50px 20px;text-align:center;}
+h2{font-size:30px;margin-bottom:20px;color:#c62828;}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:14px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* CONTACT */
+.contact{
+background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+color:#fff;
+}
+
+.contact a{color:#ffd54f;text-decoration:none;}
+
+/* FOOTER */
+footer{
+background:#0f2027;
+color:#ccc;
+text-align:center;
+padding:12px;
+font-size:12px;
+}
+
+/* FLOAT */
+.float{
+position:fixed;
+bottom:20px;
+right:20px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.float img{
+width:48px;
+height:48px;
+border-radius:50%;
+}
+
+/* FORM */
+input,textarea{
+width:90%;
+max-width:500px;
+padding:12px;
+margin:8px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+button{
+padding:12px 26px;
+background:#0d0d0d;
+color:#fff;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+  .card img{
+width:100%;
+height:170px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>SHANVI SPORTS FOUNDATION</h1>
+<p>Sports Training | Activities | Games Development</p>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>Train Hard. Play Smart. Win Big.</h2>
+<p>Professional Sports Training & Activity Programs</p>
+<a href="https://wa.me/919929974719" class="btn">Join Now</a>
+</div>
+
+<section id="about">
+<h2>About Us</h2>
+
+<div class="card" style="max-width:900px;margin:auto;line-height:1.8;text-align:left;border-left:5px solid #ffc107;">
+
+🏆 <b>Shanvi Sports Foundation</b> एक professional sports training organization है जो बच्चों और युवाओं को बेहतर खिलाड़ी बनाने के लिए dedicated है।
+
+<br><br>
+
+हम experienced coaches और structured training programs के माध्यम से physical fitness, discipline और sports skills develop करते हैं।
+
+<br><br>
+
+✔ Professional Sports Training  
+✔ Daily Practice Sessions  
+✔ Fitness & Skill Development  
+✔ Outdoor & Indoor Games  
+✔ Tournament Preparation  
+
+<br><br>
+
+हमारा mission है हर student को strong, confident और champion बनाना।
+
+</div>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="grid">
+<div class="card">🏃 Sports Training</div>
+<div class="card">🏋 Fitness Activities</div>
+<div class="card">⚽ Outdoor Games</div>
+<div class="card">🏀 Indoor Games</div>
+<div class="card">🎯 Skill Development</div>
+<div class="card">🏆 Tournament Practice</div>
+</div>
+</section>
+<!-- WHY CHOOSE US -->
+<section>
+<h2>Why Choose Us</h2>
+
+<div class="grid">
+<div class="card">✅ Certified Coaches</div>
+<div class="card">🏋 Modern Training Methods</div>
+<div class="card">🧠 Discipline & Fitness Focus</div>
+<div class="card">🏆 Tournament तैयारी</div>
+</div>
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+<section style="background:#fff3e0;">
+<h2>Our Achievements</h2>
+
+<div class="grid">
+<div class="card"><h3>500+</h3><p>Students Trained</p></div>
+<div class="card"><h3>50+</h3><p>Tournaments Played</p></div>
+<div class="card"><h3>20+</h3><p>Winners</p></div>
+<div class="card"><h3>5+</h3><p>Years Experience</p></div>
+</div>
+</section>
+
+
+<!-- GALLERY -->
+<section>
+<h2>Training Gallery</h2>
+
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1517649763962-0c623066013b"><p>Cricket Training</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf"><p>Football Practice</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517649763962-0c623066013b"><p>Fitness Session</p></div>
+</div>
+</section>
+
+
+<!-- REVIEWS -->
+<section style="background:#f1f8e9;">
+<h2>Student Reviews</h2>
+
+<div class="grid">
+
+<div class="card">
+⭐⭐⭐⭐⭐  
+<p>"Best training ground! Coach bahut support karte hain."</p>
+<b>- Rahul</b>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐  
+<p>"Meri fitness aur game dono improve hua hai."</p>
+<b>- Ankit</b>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐  
+<p>"Discipline aur practice ka best environment."</p>
+<b>- Priya</b>
+</div>
+
+</div>
+</section>
+
+
+<!-- CTA -->
+<section style="background:#0f2027;color:#fff;">
+<h2>Ready to Start Your Journey?</h2>
+<p>Join now and become a champion 🏆</p>
+
+<a href="https://wa.me/919929974719" class="btn">Join WhatsApp Now</a>
+</section>
+<section>
+<h2>Book Training</h2>
+
+<input type="text" id="name" placeholder="Your Name">
+<input type="text" id="phone" placeholder="Phone Number">
+<textarea id="msg" placeholder="Training / Game Interest"></textarea><br>
+
+<button onclick="sendWhatsApp()">Join on WhatsApp</button>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>📞 <a href="tel:+919929974719">+91 99299 74719</a></p>
+<p>📍 Your Training Ground Location Here</p>
+</section>
+
+<footer>
+© 2026 Shanvi Sports Foundation | All Rights Reserved
+</footer>
+
+<div class="float">
+<a href="tel:+919929974719">
+<img src="https://cdn-icons-png.flaticon.com/512/597/597177.png">
+</a>
+
+<a href="https://wa.me/919929974719">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+</a>
+</div>
+
+<script>
+function sendWhatsApp(){
+let name=document.getElementById('name').value;
+let phone=document.getElementById('phone').value;
+let msg=document.getElementById('msg').value;
+
+let url=`https://wa.me/919929974719?text=Hello%20Shanvi%20Sports%20Foundation%0AName:${name}%0APhone:${phone}%0AInterest:${msg}`;
+
+window.open(url,'_blank');
+}
+</script>
+
+</body>
+</html>
