@@ -146,7 +146,7 @@ white-space:nowrap;
 .news-track{
 display:inline-block;
 padding:10px;
-animation:scroll 30s linear infinite; /* speed slow kiya */
+animation:scroll 30s linear infinite;
 font-weight:bold;
 color:#000;
 }
@@ -156,8 +156,8 @@ margin-right:60px;
 }
 
 @keyframes scroll{
-0%{transform:translateX(100%);}   /* right se start */
-100%{transform:translateX(-100%);} /* left tak jaye */
+0%{transform:translateX(0);}      /* screen पर ही start */
+100%{transform:translateX(-100%);} /* left move */
 }
 </style>
 </head>
@@ -174,9 +174,7 @@ margin-right:60px;
 <a href="#contact">Contact</a>
 </nav>
 </header>
-<div class="news-bar">
 <div class="news-track">
-
 <span>🏐 Volleyball Training Available</span>
 <span>🥋 Judo Training Available</span>
 <span>🤾 Handball Practice Sessions</span>
@@ -186,7 +184,6 @@ margin-right:60px;
 <span>🥋 Judo Training Available</span>
 <span>🤾 Handball Practice Sessions</span>
 <span>🏃 Athletics Coaching Available</span>
-
 </div>
 </div>
 <div class="hero">
