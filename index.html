@@ -140,24 +140,28 @@ margin-bottom:10px;
 .news-bar{
 background:#ffc107;
 overflow:hidden;
-white-space:nowrap;
+height:40px;              /* height fix */
+display:flex;
+align-items:center;       /* vertically center */
 }
 
 .news-track{
 display:inline-block;
-padding:10px;
+white-space:nowrap;
 animation:scroll 30s linear infinite;
 font-weight:bold;
 color:#000;
+line-height:40px;         /* text center */
 }
 
 .news-track span{
-margin-right:60px;
+margin-right:50px;
+font-size:14px;           /* size control */
 }
 
 @keyframes scroll{
-0%{transform:translateX(0);}      /* screen पर ही start */
-100%{transform:translateX(-100%);} /* left move */
+0%{transform:translateX(0);}
+100%{transform:translateX(-100%);}
 }
 </style>
 </head>
