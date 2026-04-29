@@ -137,6 +137,28 @@ object-fit:cover;
 border-radius:10px;
 margin-bottom:10px;
 }
+  .news-bar{
+background:#ffc107;
+overflow:hidden;
+white-space:nowrap;
+}
+
+.news-track{
+display:inline-block;
+padding:10px;
+animation:scroll 18s linear infinite;
+font-weight:bold;
+color:#000;
+}
+
+.news-track span{
+margin-right:60px;
+}
+
+@keyframes scroll{
+0%{transform:translateX(-100%);}
+100%{transform:translateX(100%);}
+}
 </style>
 </head>
 
@@ -152,7 +174,21 @@ margin-bottom:10px;
 <a href="#contact">Contact</a>
 </nav>
 </header>
+<div class="news-bar">
+<div class="news-track">
 
+<span>🏐 Volleyball Training Available</span>
+<span>🥋 Judo Training Available</span>
+<span>🤾 Handball Practice Sessions</span>
+<span>🏃 Athletics Coaching Available</span>
+
+<span>🏐 Volleyball Training Available</span>
+<span>🥋 Judo Training Available</span>
+<span>🤾 Handball Practice Sessions</span>
+<span>🏃 Athletics Coaching Available</span>
+
+</div>
+</div>
 <div class="hero">
 <h2>Train Hard. Play Smart. Win Big.</h2>
 <p>Professional Sports Training & Activity Programs</p>
